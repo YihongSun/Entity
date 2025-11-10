@@ -93,7 +93,7 @@ class gnconv(nn.Module):
 
         self.scale = s
 
-        print('[gconv]', order, 'order with dims=', self.dims, 'scale=%.4f'%self.scale)
+        # print('[gconv]', order, 'order with dims=', self.dims, 'scale=%.4f'%self.scale)
 
 
     def forward(self, x, mask=None, dummy=False):
